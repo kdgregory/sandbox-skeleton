@@ -2,7 +2,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>FIXME</groupId>
+    <groupId>com.kdgregory.sandbox</groupId>
     <artifactId>FIXME</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -20,7 +20,9 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <junit.version>4.12</junit.version>
+        <kdgcommons.version>1.0.14</kdgcommons.version>
         <log4j.version>1.2.17</log4j.version>
+        <practicalxml.version>1.1.18</practicalxml.version>
         <slf4j.version>1.7.13</slf4j.version>
     </properties>
 
@@ -40,6 +42,16 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.kdgcommons</groupId>
+            <artifactId>kdgcommons</artifactId>
+            <version>${kdgcommons.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.practicalxml</groupId>
+            <artifactId>practicalxml</artifactId>
+            <version>${practicalxml.version}</version>
         </dependency>
 
         <dependency>
